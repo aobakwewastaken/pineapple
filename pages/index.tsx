@@ -1,7 +1,18 @@
-import { Inter } from "@next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import { useState } from "react";
 
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  const [hover, setHover] = useState(false);
+  return (
+    <div className="flex items-center justify-center h-screen">
+      <p
+        className="text-8xl"
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+      >
+        {!hover
+          ? "Aobakwe Kodisang"
+          : "Sorry this does not do anything at this point"}
+      </p>
+    </div>
+  );
 }
