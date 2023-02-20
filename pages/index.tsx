@@ -11,7 +11,7 @@ export default function Home() {
       >
         {!hover
           ? "Aobakwe Kodisang"
-          : "Sorry this does not do anything at this point"}
+          : "This does not do anything at this point"}
       </p>
     </div>
   );
