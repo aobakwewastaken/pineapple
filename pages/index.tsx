@@ -10,7 +10,7 @@ export default function Home() {
         onMouseLeave={() => setHover(false)}
       >
         {!hover
-          ? "Aobakwe Kodisang"
+          ? "Aobakwe Kodisang!"
           : "This does not do anything at this point"}
       </p>
     </div>
