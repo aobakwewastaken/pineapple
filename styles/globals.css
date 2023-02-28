@@ -103,6 +103,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='128px' width='128px' style='fill:black;font-size:64px;'><text y='50%'>👆</text></svg>"), auto;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
